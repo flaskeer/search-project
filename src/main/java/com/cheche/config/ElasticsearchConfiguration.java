@@ -26,7 +26,7 @@ public class ElasticsearchConfiguration {
     private Environment environment;
 
 
-    @Bean
+    @Bean(name = "client")
     public Client client(){
         TransportClient client = new TransportClient();
         TransportAddress address = new InetSocketTransportAddress(environment.getProperty("elasticsearch.host"),Integer.parseInt(environment.getProperty("elasticsearch.port")));

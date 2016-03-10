@@ -21,8 +21,7 @@
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:1.4.0.M1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.4.0.M1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-logging:1.4.0.M1" level="project" />
-    <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.1.5" level="project" />
-    <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.1.5" level="project" />
+    <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.1.6" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:1.7.16" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:log4j-over-slf4j:1.7.16" level="project" />
     <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.17" level="project" />
@@ -106,6 +105,9 @@
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-spatial:4.10.4" level="project" />
     <orderEntry type="library" name="Maven: com.spatial4j:spatial4j:0.4.1" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.16" level="project" />
+    <orderEntry type="library" name="Maven: net.logstash.logback:logstash-logback-encoder:4.4" level="project" />
+    <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.1.6" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.6.5" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-velocity:1.4.0.M1" level="project" />
     <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.9.2" level="project" />
@@ -134,7 +136,6 @@
     <orderEntry type="library" name="Maven: javax.validation:validation-api:1.1.0.Final" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.3.0.Final" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml:classmate:1.1.0" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.6.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-web:4.2.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.2.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.2.5.RELEASE" level="project" />
