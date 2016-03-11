@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+<form action="index/search" method="get">
+    <input name="search" type="text" placeholder="这里也可以搜索">
+    <input type="submit" value="搜索一下">
+</form>
+
+</body>
+</html>

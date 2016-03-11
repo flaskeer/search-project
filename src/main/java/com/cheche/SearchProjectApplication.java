@@ -32,7 +32,7 @@ public class SearchProjectApplication implements CommandLineRunner {
 		while (true) {
 			logService.generateLog();
 			Thread.sleep(1000);
-			logger.info("current thread:{},content:{}",Thread.currentThread().getName(), UUID.randomUUID().toString());
+//			logger.info("current thread:{},content:{}",Thread.currentThread().getName(), UUID.randomUUID().toString());
 		}
 	}
 }

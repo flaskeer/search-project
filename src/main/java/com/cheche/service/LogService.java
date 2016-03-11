@@ -15,6 +15,6 @@ public class LogService {
     public static final Logger logger = LoggerFactory.getLogger(LogService.class);
 
     public void generateLog(){
-        logger.info("hello:{}", UUID.randomUUID().toString());
+//        logger.info("hello:{}", UUID.randomUUID().toString());
     }
 }

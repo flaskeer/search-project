@@ -34,10 +34,10 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-zuul</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-elasticsearch</artifactId>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>org.springframework.boot</groupId>-->
+			<!--<artifactId>spring-boot-starter-data-elasticsearch</artifactId>-->
+		<!--</dependency>-->
 
 		<!-- logstash -->
 		<dependency>
@@ -58,7 +58,20 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		
+
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-elasticsearch</artifactId>
+			<version>1.4.0.BUILD-SNAPSHOT</version>
+		</dependency>
+
+		<!--<dependency>-->
+			<!--<groupId>org.elasticsearch</groupId>-->
+			<!--<artifactId>elasticsearch</artifactId>-->
+			<!--<version>2.1.1</version>-->
+		<!--</dependency>-->
+
+
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
@@ -100,6 +113,11 @@
 	</build>
 	
 	<repositories>
+		<repository>
+			<id>spring-libs-snapshot</id>
+			<name>Spring Snapshot Repository</name>
+			<url>http://repo.spring.io/libs-snapshot</url>
+		</repository>
 		<repository>
 			<id>spring-snapshots</id>
 			<name>Spring Snapshots</name>

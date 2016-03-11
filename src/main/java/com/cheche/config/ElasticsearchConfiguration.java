@@ -18,8 +18,8 @@ import javax.annotation.Resource;
  * Created by user on 2016/3/8.
  */
 @Configuration
-@PropertySource(value = "classpath:application.properties")
-@EnableElasticsearchRepositories
+@PropertySource(value = "classpath:elasticsearch.properties")
+@EnableElasticsearchRepositories(basePackages = "com.cheche.repository")
 public class ElasticsearchConfiguration {
 
     @Resource
@@ -34,7 +34,7 @@ public class ElasticsearchConfiguration {
         return client;
     }
 
-    @Bean
+    @Bean(name = "elasticsearchTemplate")
     public ElasticsearchOperations elasticsearchTemplate(){
         return new ElasticsearchTemplate(client());
     }
