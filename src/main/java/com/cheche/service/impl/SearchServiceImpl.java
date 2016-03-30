@@ -1,9 +1,12 @@
 package com.cheche.service.impl;
 
 import com.cheche.service.SearchService;
+import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.action.suggest.SuggestRequestBuilder;
 import org.elasticsearch.action.suggest.SuggestResponse;
 import org.elasticsearch.client.Client;
+import org.elasticsearch.index.query.QueryBuilder;
+import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.suggest.Suggest;
 import org.elasticsearch.search.suggest.completion.CompletionSuggestionBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,6 +37,10 @@ public class SearchServiceImpl implements SearchService{
         Suggest.Suggestion suggestion = suggest.getSuggestion(searchText);
         Iterator  iterator= suggestion.iterator();
 
+    }
+
+    public void test1() {
+        SearchResponse resp = client.prepareSearch("test").setQuery(QueryBuilders.queryStringQuery("")).execute().actionGet();
     }
 
 }
