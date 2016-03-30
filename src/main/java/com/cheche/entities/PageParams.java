@@ -10,6 +10,8 @@ import lombok.Setter;
 @Setter
 public class PageParams {
 
+    private static final PageParams DEFAULT_PAGE_PARAMS = new PageParams(1,20);
+
     /**
      * 查询的页码
      */
@@ -25,6 +27,10 @@ public class PageParams {
         this.limit = limit;
     }
 
+    public static PageParams createDefault() {
+        return DEFAULT_PAGE_PARAMS;
+    }
+
     /**
      * 获得起始页码
      * @return
@@ -36,4 +42,6 @@ public class PageParams {
     public int getToIndex() {
         return this.getBeginIndex() + limit;
     }
+
+
 }

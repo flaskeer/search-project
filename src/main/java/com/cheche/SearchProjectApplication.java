@@ -11,8 +11,6 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-import java.util.UUID;
-
 @Configuration
 @ComponentScan(basePackages = "com.cheche")
 @EnableAutoConfiguration(exclude = {ElasticsearchConfiguration.class})
