@@ -1,6 +1,6 @@
-package com.cheche.constant;
+package com.hao.constant;
 
-import com.cheche.entities.ServiceResponse;
+import com.hao.entities.ServiceResponse;
 
 /**
  * 返回结果code定义

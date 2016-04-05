@@ -1,7 +1,7 @@
-package com.cheche;
+package com.hao;
 
-import com.cheche.config.ElasticsearchConfiguration;
-import com.cheche.service.LogService;
+import com.hao.config.ElasticsearchConfiguration;
+import com.hao.service.LogService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages = "com.cheche")
+@ComponentScan(basePackages = "com.hao")
 @EnableAutoConfiguration(exclude = {ElasticsearchConfiguration.class})
 public class SearchProjectApplication implements CommandLineRunner {
 

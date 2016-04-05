@@ -1,4 +1,4 @@
-package com.cheche.config;
+package com.hao.config;
 
 import org.elasticsearch.client.Client;
 import org.elasticsearch.client.transport.TransportClient;

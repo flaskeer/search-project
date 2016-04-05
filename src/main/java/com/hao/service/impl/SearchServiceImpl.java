@@ -1,6 +1,6 @@
-package com.cheche.service.impl;
+package com.hao.service.impl;
 
-import com.cheche.service.SearchService;
+import com.hao.service.SearchService;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.action.suggest.SuggestResponse;
 import org.elasticsearch.client.Client;

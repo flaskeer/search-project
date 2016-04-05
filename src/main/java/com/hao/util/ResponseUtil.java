@@ -1,7 +1,7 @@
-package com.cheche.util;
+package com.hao.util;
 
 import com.alibaba.fastjson.JSON;
-import com.cheche.entities.ServiceResponse;
+import com.hao.entities.ServiceResponse;
 import com.google.common.base.Preconditions;
 import com.google.common.collect.Maps;
 import org.slf4j.Logger;

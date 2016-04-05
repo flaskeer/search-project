@@ -1,8 +1,8 @@
-package com.cheche.controller;
+package com.hao.controller;
 
-import com.cheche.constant.ResultConst;
-import com.cheche.entities.PageParams;
-import com.cheche.entities.ServiceResponse;
+import com.hao.constant.ResultConst;
+import com.hao.entities.PageParams;
+import com.hao.entities.ServiceResponse;
 import org.springframework.web.bind.ServletRequestUtils;
 
 import javax.servlet.http.HttpServletRequest;

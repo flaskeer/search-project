@@ -1,4 +1,4 @@
-package com.cheche.service;
+package com.hao.service;
 
 /**
  * Created by user on 2016/3/10.

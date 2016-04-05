@@ -1,4 +1,4 @@
-package com.cheche.entities;
+package com.hao.entities;
 
 import java.io.Serializable;
 

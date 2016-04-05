@@ -1,4 +1,4 @@
-package com.cheche.annoation.aspect;
+package com.hao.annoation.aspect;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
 public class RecordTimeAspect {
     private static final Logger LOGGER = LoggerFactory.getLogger(RecordTimeAspect.class);
 
-    @Around("execution(@com.cheche.annoation.RecoreTime * *.*(..))")
+    @Around("execution(@com.hao.annoation.RecoreTime * *.*(..))")
     public Object recordTime(final ProceedingJoinPoint joinPoint) throws Throwable {
         long st = System.nanoTime();
         String targetMethodName = joinPoint.getSignature().getName();

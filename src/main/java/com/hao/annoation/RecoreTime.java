@@ -1,4 +1,4 @@
-package com.cheche.annoation;
+package com.hao.annoation;
 
 import java.lang.annotation.*;
 
