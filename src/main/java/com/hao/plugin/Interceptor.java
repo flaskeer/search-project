@@ -1,5 +1,6 @@
 package com.hao.plugin;
 
+import java.lang.reflect.InvocationTargetException;
 import java.util.Properties;
 
 /**
@@ -9,7 +10,7 @@ import java.util.Properties;
  */
 public interface Interceptor {
 
-    Object intercept(Invocation invocation);
+    Object intercept(Invocation invocation) throws InvocationTargetException, IllegalAccessException;
 
     Object plugin(Object target);
 

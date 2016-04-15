@@ -28,6 +28,6 @@ public @interface Signature {
      * 方法参数的类型
      * @return
      */
-    Class<?> args();
+    Class<?>[] args();
 
 }
