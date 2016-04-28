@@ -27,7 +27,7 @@ public class SingleArgumentEventListener implements TypedEventListener{
 
     @Override
     public boolean accept(Object event) {
-        return event != null && getEventType().isInstance(target);
+        return event != null && getEventType().isInstance(event);
     }
 
     @Override
